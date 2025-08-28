@@ -35,5 +35,7 @@ LIMIT 10;
 The SQL-processed datasets were imported into Tableau to create the following visualizations:
 
 Bar Chart: Displays the top 10 conditions (e.g., Viral sinusitis: 1,248 diagnoses).
+
 Line Chart: Tracks diagnosis counts over time using start_date, aggregated by month.
+
 Heatmap: Visualizes encounter distribution by class (e.g., wellness: 19,106 visits).
