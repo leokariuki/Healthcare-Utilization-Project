@@ -36,8 +36,29 @@ LIMIT 10;
 ### Visualizations
 The SQL-processed datasets were imported into Tableau to create the following visualizations:
 
-Bar Chart: Displays the top 10 conditions (e.g., Viral sinusitis: 1,248 diagnoses).
+- Bar Chart: Displays the top 10 conditions (e.g., Viral sinusitis: 1,248 diagnoses).
 
-Line Chart: Tracks diagnosis counts over time using start_date, aggregated by month.
+- Line Chart: Tracks diagnosis counts over time using start_date, aggregated by month.
 
-Heatmap: Visualizes encounter distribution by class (e.g., wellness: 19,106 visits).
+- Heatmap: Visualizes encounter distribution by class (e.g., wellness: 19,106 visits).
+
+### Key Insights
+- Wellness and ambulatory encounters dominate hospital utilization.
+
+- Viral sinusitis is the most common condition.
+
+- More female patients than male patients are represented in the dataset.
+
+- A significant proportion of patients had multiple encounters, pointing to potential readmission challenges.
+
+- Diagnoses show seasonal trends across months.
+
+### Tools & Technologies
+
+- SQL (PostgreSQL) – Data aggregation & preprocessing.
+
+- Tableau – Dashboards and visual analytics.
+
+- Excel – Intermediate dataset handling.
+
+- Synthea – Synthetic healthcare data generator
