@@ -16,8 +16,8 @@ SQL queries were used to preprocess and aggregate the Synthea-generated data bef
 
 ### 1. Patient Demographics Overview
 - **Objective**: Aggregate patient counts by gender and race.
-- **Example SQL Query**:
-- 
+  **Example SQL Query**:
+  
   SELECT gender, race, COUNT(*) AS patient_count
   FROM patients
   GROUP BY gender, race
@@ -25,8 +25,8 @@ SQL queries were used to preprocess and aggregate the Synthea-generated data bef
 
 ### 2. Top 10 Conditions Diagnosed
 - **Objective**: Identify the top 10 conditions by diagnosis count.
-- **Example SQL Query**:
-- 
+  **Example SQL Query**:
+  
 SELECT description, COUNT(*) AS diagnosis_count
 FROM conditions
 GROUP BY description
